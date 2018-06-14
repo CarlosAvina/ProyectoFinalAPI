@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{280943EC-A9CC-4874-A467-BA90A21A051F}|">
+  <MonoDevelop.Ide.ItemProperties.ProyectoFinalAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinalAPI/Models/Video.cs">
+    <Files>
+      <File FileName="ProyectoFinalAPI/Controllers/UsuarioController.cs" Line="16" Column="32" />
+      <File FileName="ProyectoFinalAPI/Controllers/VideoController.cs" Line="12" Column="30" />
+      <File FileName="ProyectoFinalAPI/Models/Video.cs" Line="4" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
