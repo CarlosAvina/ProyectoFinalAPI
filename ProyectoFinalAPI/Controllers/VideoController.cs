@@ -33,5 +33,39 @@ namespace ProyectoSwiftAPI.Controllers
             }
 
         }
+
+        [HttpGet]
+        [Route("porId/{id}")]
+        public HttpResponseMessage ObtenerPorId([FromUri] int id)
+        {
+
+            try
+            {
+                var video = VideoDAO.ConsultarPorID(id);
+
+                if (video != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, video);
+                }
+                else
+                {
+                    return Request.CreateResponse(
+                        HttpStatusCode.NotFound,
+                        new
+                        {
+                            Mensaje = $"No se encontró comentarios relacionado con este film {id}"
+                        });
+                }
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(
+                    HttpStatusCode.InternalServerError,
+                    new
+                    {
+                        Mensaje = ex.Message
+                    });
+            }
+        }
     }
 }

@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{280943EC-A9CC-4874-A467-BA90A21A051F}|">
   <MonoDevelop.Ide.ItemProperties.ProyectoFinalAPI PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinalAPI/Models/Video.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProyectoFinalAPI/Controllers/ComentarioController.cs">
     <Files>
-      <File FileName="ProyectoFinalAPI/Controllers/UsuarioController.cs" Line="16" Column="32" />
-      <File FileName="ProyectoFinalAPI/Controllers/VideoController.cs" Line="12" Column="30" />
-      <File FileName="ProyectoFinalAPI/Models/Video.cs" Line="4" Column="23" />
+      <File FileName="ProyectoFinalAPI/packages.config" Line="1" Column="1" />
+      <File FileName="ProyectoFinalAPI/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="ProyectoFinalAPI/Global.asax" Line="1" Column="1" />
+      <File FileName="ProyectoFinalAPI/Controllers/UsuarioController.cs" Line="9" Column="27" />
+      <File FileName="ProyectoFinalAPI/Controllers/ComentarioController.cs" Line="13" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -7,6 +7,6 @@ namespace ProyectoSwiftAPI.Models
 		public string titulo { get; set; }
 		public string descripcion { get; set; }
 		public int likes { get; set; }
-		public int dislike { get; set; }
+		public int dislikes { get; set; }
 	}
 }
